@@ -372,6 +372,12 @@ body {
   background-color: #d2b48c;
 }
 
+.logo {
+  width: 120px; /* Adjust the width as needed */
+  height: 45px;
+  margin-right: 10px; /* Add some space between logo and links */
+}
+
 .nav-link {
   color: white !important;
   margin-right: 15px;

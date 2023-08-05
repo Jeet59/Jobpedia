@@ -1,10 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
+import logo from "../assets/jobpedia_logo.jpg";
 
 export default function Navigation() {
   return (
     <Navbar className="custom-navbar" expand="lg">
+      <Navbar.Brand as={Link} to="/">
+        <img src={logo} alt="JobPedia Logo" className="logo" />
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
