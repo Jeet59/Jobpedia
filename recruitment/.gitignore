@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+*.pyc
+
+# Database
+db.sqlite3
+
+# Static files
+staticfiles/
+.media/
+
+# Local development settings
+*.log
+*.env
+
+# Editor and IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# Dependency directories
+node_modules/
+__pycache__/
+
+# Compiled Python files
+*.pyc
+__pycache__/
+*.pyo
+
+# macOS-specific files
+.DS_Store

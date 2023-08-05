@@ -1,0 +1,50 @@
+/* Import Bootstrap to use its variables */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+/* Override Bootstrap variables */
+:root {
+  --primary: #8b6b39; /* Brownish color for primary elements */
+  --secondary: #c6a063; /* Oak color for secondary elements */
+  --bg: #f5f0e1; /* Light beige background */
+  --navbar-bg: #6a4b1f; /* Darker brown navbar */
+  --navbar-text: #fff; /* Text color for the navbar */
+  --button-bg: #8b6b39; /* Brownish button color */
+  --button-text: #fff; /* Text color for buttons */
+}
+
+/* Global styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: var(--bg);
+  margin: 0;
+  padding: 0;
+}
+
+/* Page header */
+.header {
+  background-color: var(--primary);
+  color: var(--navbar-text);
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Section with oak background */
+.oak-section {
+  background-color: var(--secondary);
+  padding: 2rem;
+  color: var(--navbar-text);
+}
+
+/* Button */
+.custom-button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #6a4b1f; /* Darker brown on hover */
+}
